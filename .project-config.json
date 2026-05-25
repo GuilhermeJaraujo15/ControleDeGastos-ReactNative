@@ -1,0 +1,51 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://27y16bz4dxMpdr7.root:Ip1SdsE69Vp98f7BQjBJ@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/bg9FsHyvHkhK957HEviZ5H?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663316278063/bg9FsHyvHkhK957HEviZ5H",
+    "access_key_id": "ASIAZV3A2ECZHNHGIBSJ",
+    "secret_access_key": "77ekhuxV0p1BrO+NyhFddy0PfSOXAChG1o6htKux",
+    "session_token": "IQoJb3JpZ2luX2VjEA4aCXVzLWVhc3QtMSJIMEYCIQDejbwkU17juO/8r6T4SrMIBeMy4UM4LPfj+zTrU7cNIwIhAIkESSvFmo3eywAkIa+OwiEXD0hWfzlgxuLtWTcTWUEhKv8DCNb//////////wEQBBoMNjY1Mzg2MDk4ODY2IgwGWvqimIRWn9tm4+wq0wOFPn4lSDzrioI1KLW66Ctn7wf0hxrGNkihvNX1ZKc+uxFDQMzjQB3Br2lIYsR87RQQOfzmHegF0WW/idsWl02Xu4NkbXOaVnFf5YAfNoitnBZcTmcc4EXQ7F7AldWYj8i3RU3ZXDOCxCZHE1OjRhzOH48PuHZ2yI0YrCGvVHV1s2dQzicra9ZZCW48Q4OgOJaBbYXRdMzP0rCBGyQDmRr3z7iqO20/7O8jYiY9WUhpfBdZNqoICvNvL33Ge8suXw8DMgRXOfVeI29I7DIKGsKWwrwFQ9iqtKLo5olnLEXO6daqBbG4wYQkiXg66YIE/gmJ5nDHap7Zq3bMWNtImfMwif28Q884z4PmLwhLYqO+UVRX9DTfVo5ru7ULlOWxbA7E7iTtuW8OXRSGC8g6Z3sujn9aUPu50CVedwETQHW3xRWJIPX9PlnzkYvDeyYtI9WXYVCYhLDT2zy5ILp3LOnwYMBbsMvHugyk+4PRmXKOrMxm0ffSF0L3zGb/Xb9GBy9AUpmSJkTQMH7/nO+HFodm0Jzd9Fj/I/tAt4wwXxKQbgPLMQBdcRDR8ZnKeRXJouRdg98LmsjnShARr3ECyigYjkTAP8DphfD9v02FTwm9t/iQGDDgxbHQBjqcAajpK68t980Ia/qDV+ZxK7N4dHukFLfCeAjsXMp/3SaYr8FFJ3H7F5ONzkyFm+LofMEXted5XQso8+IH5sMxwsVSG20437BjkSBUEehlO8RA4sySvecrlRHtgdoOz/Vwry6Df9h0sDH473Hu0+uhXx103RM1Jv00+6hh2nV1XGZriypqcQitlrHuBgUbeIeddGP+EDDCaXzvkGJXnw==",
+    "expiration": "2026-05-20T01:17:20.000Z"
+  },
+  "name": "spending-control-app",
+  "path": "/home/ubuntu/spending-control-app",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "oXXdeZixnZM8qCZDKYH3QL",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "EXPO_APP_QR_URL": "exps://8081-ie94t89qxswderqlhstkb-b6f82c9d.us1.manus.computer",
+    "EXPO_PACKAGER_PROXY_URL": "https://8081-ie94t89qxswderqlhstkb-b6f82c9d.us1.manus.computer",
+    "EXPO_PUBLIC_API_BASE_URL": "https://3000-ie94t89qxswderqlhstkb-b6f82c9d.us1.manus.computer",
+    "EXPO_PUBLIC_OAUTH_PORTAL_URL": "https://manus.im",
+    "EXPO_PUBLIC_OAUTH_SERVER_URL": "https://api.manus.im",
+    "EXPO_PUBLIC_OWNER_NAME": "Felippe Takahashi Gomes",
+    "EXPO_PUBLIC_OWNER_OPEN_ID": "PbfxyywFtRB93VrjGDCzKN",
+    "JWT_SECRET": "K8qqSXKwsdLXrDeDuQbimT",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Felippe Takahashi Gomes",
+    "OWNER_OPEN_ID": "PbfxyywFtRB93VrjGDCzKN",
+    "REACT_NATIVE_PACKAGER_HOSTNAME": "8081-ie94t89qxswderqlhstkb-b6f82c9d.us1.manus.computer",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "4bbdc5ed-1e65-496b-9eac-d4f09d95c3f4",
+    "VITE_APP_ID": "bg9FsHyvHkhK957HEviZ5H",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Spending Control App",
+    "VITE_FRONTEND_FORGE_API_KEY": "LrtDjzUT4jCFp3xfcGSpxF",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "app",
+  "test_command": "pnpm test"
+}
